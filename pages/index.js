@@ -1,16 +1,17 @@
 import React from 'react'
 import { Button, Alert } from "reactstrap";
+import Layout from "../components/Layout";
 
 
 export default () => {
   return (
-    <div>
-    <div>
-      <Alert color= "primary">
-      Whatsup!
-      </Alert>
-      &nbsp; <Button color="primary" />
-    </div>
-  </div>
-  )
-}
+    <Layout>
+      <div>
+        <Alert color= "primary">
+        Whatsup!
+        </Alert>
+        &nbsp; <Button color="primary" />
+      </div>
+    </Layout>
+  );
+};

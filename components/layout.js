@@ -16,7 +16,7 @@ class Layout extends React.Component {
 
         return { pageProps, isAuthenticated };
     }
-    render() {
+    render() {]
         const { children } = this.props;
         const title = "Welcome to Nextjs";
         return (
